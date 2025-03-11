@@ -22,8 +22,8 @@ const ipRanges = [
 async function fillIpAddress(appFrame, index, ipaddress) {
     console.log(index, 'address', ipaddress)
     await appFrame.click('.oui-icon.oui-icon-add')
-    await appFrame.click('div > button.ui-select-match')
-    await appFrame.click(`button[id="ui-select-choices-row-0-${index}"]`)
+    // await appFrame.click('div > button.ui-select-match')
+    // await appFrame.click(`button[id="ui-select-choices-row-0-${index}"]`)
     await appFrame.select('td > span.oui-select > select[id="actionSelect"]', 'string:permit')
     await appFrame.select('td > span.oui-select > select[id="protocolSelect"]', 'string:tcp')
     await appFrame.type('input[id="source"]', ipaddress);
