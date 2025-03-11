@@ -1,0 +1,17 @@
+{
+  "name": "puppeteer-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "puppeteer": "24.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.9"
+  }
+}
