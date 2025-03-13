@@ -43,7 +43,7 @@ async function main() {
         ]
     });
     const page = await browser.newPage();
-    const url = 'https://ca.ovh.com/manager/#/dedicated/ip/148.113.171.178/firewall?ip=148.113.171.178'
+    const url = 'https://ca.ovh.com/manager/#/dedicated/ip/...'
 
     await page.goto(
         url,
